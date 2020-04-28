@@ -1,0 +1,6 @@
+age = input("What is your age? ")
+maxHr = 220 - int(age)
+lowTarget = round(float(maxHr * 0.5), 2)
+highTarget = round(float(maxHr * 0.85), 2)
+print(f"Your max HR is {maxHr} beats per minute.")
+print(f"Your target HR Zone is {lowTarget} - {highTarget} beats per minute.")
